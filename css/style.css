@@ -14,6 +14,7 @@
     --bg-btn-colored-hover: #7983f5;
     --txt-footer-titles: #7287D5;
     --bg-input-field: #202225;
+    --txt-login: #a7a9ac;
 }
 
 /* Reset */
@@ -304,6 +305,7 @@ body#bodyLogin{
     background-image: url("../img/bgLogin.jpg");
     background-size: cover;
     height: 100vh;
+    font-size: 0.9rem;
 }
 #bodyLogin .mainContent{
     width: 50%;
@@ -316,22 +318,46 @@ body#bodyLogin{
 #bodyLogin .qrCode{
     max-width: 300px;
 }
+#bodyLogin h2{
+    margin-bottom: 0.6rem;
+}
+#bodyLogin p{
+    color: var(--txt-login);
+}
 .fieldMail, .fieldPassword{
     display: block;
 }
 .fieldMail p, .fieldPassword p{
     float: left;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 7px;
 }
 #bodyLogin input[type="email"], #bodyLogin input[type="password"]{
-    width: 100%;
-    height: 2rem;
     background-color: var(--bg-input-field);
     border: 0;
-    border-radius: 3px;
+    caret-color: auto;
+    color: var(--txt-header-footer);
+}
+input:focus{
+    outline: none;
+}
+.total-width{
+    width: 100%;
 }
 #bodyLogin>div>div{
     padding: 2rem;
 }
 .little-rounded{
     border-radius: 7px;
+}
+.little-margin{
+    margin-top: 1.3rem;
+}
+.border-elem-little-rounded{
+    border-radius: 3px;
+}
+.input-height{
+    height: 2.6rem;
 }
