@@ -10,9 +10,9 @@
     --bg-btn-light: #FFFFFF;
     --bg-btn-dark: #23272A;
     --bg-btn-dark-hover: #39393F;
-    --bg-btn-colored: #7289DA;
-    --bg-btn-colored-hover: #7983f5;
-    --txt-footer-titles: #7287D5;
+    --bg-btn-colored: #5865f2;
+    --bg-btn-colored-hover: #7287D5;
+    --txt-footer-titles: #7289DA;
     --bg-input-field: #202225;
     --txt-login: #a7a9ac;
 }
@@ -123,9 +123,9 @@ i{
     background-color: var(--bg-btn-colored);
     color: var(--txt-header-footer);
 }
-.btn .colored:hover{
-    color: var(--txt-header-footer);
+.colored:hover{
     background-color: var(--bg-btn-colored-hover);
+    color: var(--txt-header-footer);
 }
 
 /* Header */
@@ -334,7 +334,6 @@ body#bodyLogin{
     display: block;
 }
 .fieldMail p, .fieldPassword p{
-    float: left;
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -361,6 +360,9 @@ input:focus{
 .little-margin{
     margin-top: 1.3rem;
 }
+.link-margin{
+    margin-top: 7px;
+}
 .border-elem-little-rounded{
     border-radius: 3px;
 }
@@ -369,4 +371,16 @@ input:focus{
 }
 .qrCode p span{
     font-weight: 700;
+}
+.txt-color-blue{
+    color: #06a2e0;
+}
+.txt-align-left{
+    float: left;
+}
+.required:after{
+    content: '*';
+    color: red;
+    margin-left: 3px;
+    font-size: 10px;
 }
