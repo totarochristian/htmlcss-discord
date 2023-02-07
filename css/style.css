@@ -4,6 +4,7 @@
     --bg-body-general: #FFFFFF;
     --bg-body-alternative: #F6F6F6;
     --bg-footer: #23272A;
+    --bg-login: #36393f;
     --txt-header-footer: #FFFFFF;
     --txt-body: #0E0E0E;
     --bg-btn-light: #FFFFFF;
@@ -12,6 +13,7 @@
     --bg-btn-colored: #7289DA;
     --bg-btn-colored-hover: #7983f5;
     --txt-footer-titles: #7287D5;
+    --bg-input-field: #202225;
 }
 
 /* Reset */
@@ -94,6 +96,7 @@ i{
 .btn{
     border-radius: 30px;
     padding: 10px 20px;
+    border: none;
 }
 .btn:hover{
     text-decoration: none;
@@ -107,6 +110,9 @@ i{
 .dark{
     background-color: var(--bg-btn-dark);
     color: var(--txt-header-footer);
+}
+#bodyLogin .dark{
+    background-color: var(--bg-login);
 }
 .btn .dark:hover{
     color: var(--txt-header-footer);
@@ -309,4 +315,23 @@ body#bodyLogin{
 }
 #bodyLogin .qrCode{
     max-width: 300px;
+}
+.fieldMail, .fieldPassword{
+    display: block;
+}
+.fieldMail p, .fieldPassword p{
+    float: left;
+}
+#bodyLogin input[type="email"], #bodyLogin input[type="password"]{
+    width: 100%;
+    height: 2rem;
+    background-color: var(--bg-input-field);
+    border: 0;
+    border-radius: 3px;
+}
+#bodyLogin>div>div{
+    padding: 2rem;
+}
+.little-rounded{
+    border-radius: 7px;
 }

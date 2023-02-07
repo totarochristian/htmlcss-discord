@@ -18,22 +18,26 @@
 </head>
 <body id="bodyLogin">
     <div class="mainContent fullscreen d-flex d-flex-center-hor-vert">
-        <div class="d-flex row-align-center text-centered dark">
+        <div class="d-flex row-align-center text-centered dark little-rounded">
             <div class="inputData">
                 <form action="">
                     <h2>Eccoti qui!</h2>
                     <p>Siamo felici di rivederti!</p>
-                    <label for="mail">Email o numero di telefono</label>
-                    <input type="email" name="mail">
-                    <label for="password">Password</label>
-                    <input type="password" name="password">
+                    <div class="fieldMail">
+                        <p>Email o numero di telefono</p>
+                        <input type="email" name="mail">
+                    </div>
+                    <div class="fieldPassword">
+                        <p for="password">Password</p>
+                        <input type="password" name="password">
+                    </div>
                     <a href="#">Hai dimenticato la tua password?</a>
-                    <input type="submit" value="Accedi">
+                    <input class="btn colored" type="submit" value="Accedi">
                     <p>Ti serve un account? <a href="#">Registrati</a></p>
                 </form>
             </div>
             <div class="qrCode">
-                <img src="../img/qrCode.png" alt="QR code">
+                <img src="../img/qrCode.png" alt="QR code" class="little-border">
                 <h2>Accedi con codice QR</h2>
                 <p>Scansionalo con l'<span>app mobile di Discord</span> per accedere istantaneamente.</p>
             </div>
