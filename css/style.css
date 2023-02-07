@@ -44,11 +44,6 @@ body{
 .debug{
     border: 2px solid yellow;
 }
-.clearfix::after{
-    clear: both;
-    display: block;
-    content: "";
-}
 a{
     text-decoration: none;
     color: var(--txt-header-footer);
@@ -89,7 +84,7 @@ i{
     color: #06a2e0;
 }
 .txt-align-left{
-    float: left;
+    text-align: left;
 }
 .required:after{
     content: '*';
@@ -456,6 +451,7 @@ body.bodySingleForm{
 .fieldDate .d-flex{
     display: block;
     width: 100%;
+    gap: 1rem;
 }
 .fieldCheckbox label{
     font-size: 0.7rem;
