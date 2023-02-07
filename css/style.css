@@ -73,6 +73,9 @@ i{
 .list ul{
     list-style: none;
 }
+.list ul li{
+    min-width: 147px;
+}
 
 /* Logo */
 .logo{
@@ -157,9 +160,11 @@ main .bgAlternative{
 /* Articles */
 .leftContent{
     width: 55%;
+    min-width: 600px;
 }
 .rightContent{
     width: 45%;
+    min-width: 500px;
 }
 .text h2, .description h2{
     font-size: 3.2rem;
@@ -178,7 +183,7 @@ article{
 }
 article img{
     float: right;
-    width: 50rem;
+    width: 100%;
 }
 article .reverse-rows img{
     float: left;
@@ -192,7 +197,7 @@ article .reverse-rows img{
     margin: 2rem auto;
 }
 .description img{
-    width: 100rem;
+    width: 100%;
 }
 /* Download */
 .download .stars{
