@@ -44,6 +44,11 @@ body{
 .debug{
     border: 2px solid yellow;
 }
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: "";
+}
 a{
     text-decoration: none;
     color: var(--txt-header-footer);
@@ -411,7 +416,8 @@ body.bodySingleForm{
     max-width: 420px;
     min-width: 350px;
 }
-.bodySingleForm .fieldMail, .bodySingleForm .fieldPassword{
+.bodySingleForm .fieldMail, .bodySingleForm .fieldPassword, 
+.bodySingleForm .fieldDate, .bodySingleForm .fieldCheckbox{
     display: block;
 }
 .bodySingleForm .specialParagraph{
@@ -421,7 +427,7 @@ body.bodySingleForm{
     margin-bottom: 7px;
 }
 .bodySingleForm input[type="email"], .bodySingleForm input[type="password"],
-.bodySingleForm input[type="text"], .bodySingleForm input[list]{
+.bodySingleForm input[type="text"], .bodySingleForm input[list] {
     background-color: var(--bg-input-field);
     border: 0;
     caret-color: auto;
@@ -450,6 +456,10 @@ body.bodySingleForm{
 .fieldDate .d-flex{
     display: block;
     width: 100%;
+}
+.fieldCheckbox label{
+    font-size: 0.7rem;
+    color: var(--txt-login);
 }
 
 /****************************************************************/

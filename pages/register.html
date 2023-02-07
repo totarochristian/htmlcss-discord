@@ -33,7 +33,7 @@
                         <p class="txt-align-left specialParagraph">Password</p>
                         <input type="password" name="password" class="total-width border-elem-little-rounded input-height">
                     </div>
-                    <div class="fieldDate little-margin">
+                    <div class="fieldDate little-margin clearfix">
                         <p class="txt-align-left specialParagraph">Data di nascita</p>
                         <div class="d-flex row-align-center row-content-center text-centered txt-align-left">
                             <input class="little-rounded" list="day" placeholder="Giorno">
@@ -175,7 +175,13 @@
                             <option value="2023">2023</option>
                         </datalist>
                     </div>
-                    <div class="fieldSubmit">
+                    <div class="fieldCheckbox little-margin">
+                        <input type="checkbox" id="terms" name="terms" value="terms">
+                        <label for="terms">Dichiaro di aver letto e di accettare i <a href="#" class="txt-color-link">Termini di Servizio</a> e l' <a href="#" class="txt-color-link">Informativa sulla privacy</a> di Discord.</label><br>
+                        <input type="checkbox" id="updates" name="updates" value="updates">
+                        <label for="updates">(Facoltativo) Voglio ricevere e-mail con aggiornamenti, consigli e offerte speciali da Discord. Puoi revocare il consenso in qualunque momento.</label>
+                    </div>
+                    <div class="fieldSubmit little-margin">
                         <input type="submit" value="Continua" class="btn colored total-width input-height little-margin" >
                         <a href="./login.html" class="txt-color-link txt-align-left link-margin">Hai già un account?</a>
                     </div>
