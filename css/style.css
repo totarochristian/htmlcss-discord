@@ -263,6 +263,10 @@ footer .list, footer .contacts{
     margin-right: 5px;
     margin-top: 1rem;
 }
+footer div .brands a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
 footer .contacts .d-flex{
     max-width: 200px;
     font-size: 1.5rem;
