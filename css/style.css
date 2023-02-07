@@ -85,7 +85,7 @@ i{
 /* Buttons */
 .btn{
     border-radius: 30px;
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 .btn:hover{
     text-decoration: none;
