@@ -86,6 +86,9 @@ i{
 .txt-align-left{
     text-align: left;
 }
+.txt-float-left{
+    float: left;
+}
 .required:after{
     content: '*';
     color: var(--txt-required);
