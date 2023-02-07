@@ -260,3 +260,7 @@ footer .contacts{
 footer .list{
     min-width: 150px;
 }
+footer>div>div{
+    border-top: 1px solid var(--bg-btn-colored);
+    padding-top: 2rem;
+}
