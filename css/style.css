@@ -189,6 +189,18 @@ article img{
 article .reverse-rows img{
     float: left;
 }
+/* Wave */
+.wave{
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    opacity: 0.04;
+    margin-top: 6rem;;
+}
+.rotate{
+    transform: rotate(180deg);
+    margin-top: 0;
+    margin-bottom: 6rem;
+}
 /* Technology section */
 .description{
     padding: 8rem 0 2rem 0;
@@ -246,8 +258,10 @@ footer li{
 footer .list, footer .contacts{
     width: 15%;
 }
-footer select{
-    margin: 1rem 0 0.7rem 0;
+.langs img{
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 1rem;
 }
 footer .contacts .d-flex{
     max-width: 200px;
