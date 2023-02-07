@@ -282,3 +282,8 @@ footer>div>div{
     border-top: 1px solid var(--bg-btn-colored);
     padding-top: 2rem;
 }
+
+#bodyLogin{
+    background-image: url("../img/bgLogin.jpg");
+    background-size: cover;
+}
