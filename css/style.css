@@ -361,3 +361,6 @@ input:focus{
 .input-height{
     height: 2.6rem;
 }
+.qrCode p span{
+    font-weight: 700;
+}
