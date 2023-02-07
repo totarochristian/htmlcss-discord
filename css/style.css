@@ -434,6 +434,9 @@ body.bodySingleForm{
 .bodySingleForm input:focus{
     outline: none;
 }
+.smallForm{
+    max-width: 440px;
+}
 
 /****************************************************************/
 /*********************** Qr code column *************************/
