@@ -414,13 +414,14 @@ body.bodySingleForm{
 .bodySingleForm .fieldMail, .bodySingleForm .fieldPassword{
     display: block;
 }
-.bodySingleForm .fieldMail p, .bodySingleForm .fieldPassword p{
+.bodySingleForm .specialParagraph{
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
     margin-bottom: 7px;
 }
-.bodySingleForm input[type="email"], .bodySingleForm input[type="password"]{
+.bodySingleForm input[type="email"], .bodySingleForm input[type="password"],
+.bodySingleForm input[type="text"]{
     background-color: var(--bg-input-field);
     border: 0;
     caret-color: auto;
