@@ -162,7 +162,7 @@ i{
     background-color: var(--bg-btn-dark);
     color: var(--txt-header-footer);
 }
-.btn .dark:hover{
+.dark:hover{
     background-color: var(--bg-btn-dark-hover);
     color: var(--txt-header-footer);
 }
