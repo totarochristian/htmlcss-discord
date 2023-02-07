@@ -319,6 +319,7 @@ body#bodyLogin{
 #bodyLogin .inputData{
     width: 60%;
     max-width: 420px;
+    min-width: 350px;
 }
 #bodyLogin .qrCode{
     width: 40%;
@@ -356,6 +357,8 @@ input:focus{
 }
 #bodyLogin>div>div{
     padding: 2rem;
+    min-width: 490px;
+    gap: 3rem;
 }
 .little-rounded{
     border-radius: 7px;
