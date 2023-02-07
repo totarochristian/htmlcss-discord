@@ -175,12 +175,6 @@ i{
     color: var(--txt-header-footer);
 }
 
-/******************************************************************************/
-/******************************************************************************/
-/********************************* Index.html *********************************/
-/******************************************************************************/
-/******************************************************************************/
-
 /****************************************************************/
 /**************************** Header ****************************/
 /****************************************************************/
@@ -369,37 +363,31 @@ footer>div>div{
     padding-top: 2rem;
 }
 
+/*************************************************************************/
+/************************** Single form container ************************/
+/*************************************************************************/
 
-
-/******************************************************************************/
-/********************************* Login.html *********************************/
-/******************************************************************************/
-
-/*********************************************************************/
-/************************** Body / Containers ************************/
-/*********************************************************************/
-
-body#bodyLogin{
+body.bodySingleForm{
     background-image: url("../img/bgLogin.jpg");
     background-size: cover;
     height: 100vh;
     font-size: 0.9rem;
 }
-#bodyLogin .mainContent{
+.bodySingleForm .mainContent{
     width: 70%;
     max-width: 890px;
     margin: 0 auto;
     padding: 3rem;
 }
-#bodyLogin .mainContent>div{
+.bodySingleForm .mainContent>div{
     width: 100%;
 }
-#bodyLogin>div>div{
+.bodySingleForm>div>div{
     padding: 2rem;
     min-width: 400px;
     gap: 3rem;
 }
-#bodyLogin .dark{
+.bodySingleForm .dark{
     background-color: var(--bg-login);
 }
 
@@ -407,10 +395,10 @@ body#bodyLogin{
 /************************* Login general ************************/
 /****************************************************************/
 
-#bodyLogin h2{
+.bodySingleForm h2{
     margin-bottom: 0.6rem;
 }
-#bodyLogin p{
+.bodySingleForm p{
     color: var(--txt-login);
 }
 
@@ -418,21 +406,21 @@ body#bodyLogin{
 /************************* Input column *************************/
 /****************************************************************/
 
-#bodyLogin .inputData{
+.bodySingleForm .inputData{
     width: 60%;
     max-width: 420px;
     min-width: 350px;
 }
-.fieldMail, .fieldPassword{
+.bodySingleForm .fieldMail, .bodySingleForm .fieldPassword{
     display: block;
 }
-.fieldMail p, .fieldPassword p{
+.bodySingleForm .fieldMail p, .bodySingleForm .fieldPassword p{
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
     margin-bottom: 7px;
 }
-#bodyLogin input[type="email"], #bodyLogin input[type="password"]{
+.bodySingleForm input[type="email"], .bodySingleForm input[type="password"]{
     background-color: var(--bg-input-field);
     border: 0;
     caret-color: auto;
@@ -440,10 +428,10 @@ body#bodyLogin{
     font-size: 1rem;
     padding: 4px 10px;
 }
-#bodyLogin input[type="submit"]{
+.bodySingleForm input[type="submit"]{
     font-size: 1rem;
 }
-#bodyLogin input:focus{
+.bodySingleForm input:focus{
     outline: none;
 }
 
@@ -451,11 +439,11 @@ body#bodyLogin{
 /*********************** Qr code column *************************/
 /****************************************************************/
 
-#bodyLogin .qrCode{
+.bodySingleForm .qrCode{
     width: 40%;
     max-width: 250px;
     min-width: 180px;
 }
-.qrCode p span{
+.bodySingleForm .qrCode p span{
     font-weight: 700;
 }

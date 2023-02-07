@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Area that will include other styles for the fonts or special icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,29 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Discord</title>
 </head>
-<body>
-    
+<body class="bodySingleForm">
+    <div class="mainContent fullscreen d-flex d-flex-center-hor-vert">
+        <div class="d-flex row-align-center row-content-center text-centered dark little-rounded shadow">
+            <div class="inputData">
+                <form action="">
+                    <h2>Eccoti qui!</h2>
+                    <p>Siamo così felici di rivederti!</p>
+                    <div class="fieldMail little-margin">
+                        <p class="txt-align-left required">Email o numero di telefono</p>
+                        <input type="email" name="mail" class="total-width border-elem-little-rounded input-height">
+                    </div>
+                    <div class="fieldPassword little-margin">
+                        <p class="txt-align-left required">Password</p>
+                        <input type="password" name="password" class="total-width border-elem-little-rounded input-height">
+                        <a href="#" class="txt-color-link txt-align-left link-margin">Hai dimenticato la tua password?</a>
+                    </div>
+                    <div class="fieldSubmit">
+                        <input type="submit" value="Accedi" class="btn colored total-width border-elem-little-rounded input-height little-margin" >
+                        <p class="txt-align-left link-margin">Ti serve un account? <a href="#" class="txt-color-link">Registrati</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
