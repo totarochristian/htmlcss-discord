@@ -439,6 +439,7 @@ body.bodySingleForm{
 }
 .bodySingleForm input[type="submit"]{
     font-size: 1rem;
+    border-radius: 3px;
 }
 .bodySingleForm input:focus{
     outline: none;
