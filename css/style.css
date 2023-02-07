@@ -135,6 +135,7 @@ header section{
 }
 header section .textContainer{
     width: 40%;
+    min-width: 400px;
     padding: 17rem 0 11rem 0;
 }
 header section div h1{
@@ -160,11 +161,11 @@ main .bgAlternative{
 /* Articles */
 .leftContent{
     width: 55%;
-    min-width: 600px;
+    min-width: 400px;
 }
 .rightContent{
     width: 45%;
-    min-width: 500px;
+    min-width: 300px;
 }
 .text h2, .description h2{
     font-size: 3.2rem;
@@ -179,7 +180,7 @@ main .bgAlternative{
     margin-top: 2rem;
 }
 article{
-    padding: 8rem 1rem 11rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 article img{
     float: right;
@@ -198,6 +199,10 @@ article .reverse-rows img{
 }
 .description img{
     width: 100%;
+}
+article .mainContent{
+    max-width: 1650px;
+    margin: 0 auto;
 }
 /* Download */
 .download .stars{
@@ -248,4 +253,10 @@ footer .contacts .d-flex{
     max-width: 200px;
     font-size: 1.5rem;
     padding: 1rem 0;
+}
+footer .contacts{
+    min-width: 300px;
+}
+footer .list{
+    min-width: 150px;
 }
