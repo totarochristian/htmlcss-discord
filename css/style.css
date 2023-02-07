@@ -407,7 +407,7 @@ body.bodySingleForm{
 /****************************************************************/
 
 .bodySingleForm .inputData{
-    width: 60%;
+    width: 100%;
     max-width: 420px;
     min-width: 350px;
 }
@@ -421,13 +421,21 @@ body.bodySingleForm{
     margin-bottom: 7px;
 }
 .bodySingleForm input[type="email"], .bodySingleForm input[type="password"],
-.bodySingleForm input[type="text"]{
+.bodySingleForm input[type="text"], .bodySingleForm input[list]{
     background-color: var(--bg-input-field);
     border: 0;
     caret-color: auto;
     color: var(--txt-login);
     font-size: 1rem;
     padding: 4px 10px;
+}
+.bodySingleForm input[list]{
+    height: 40px;
+    max-width: 120px;
+    font-weight: 700;
+}
+.bodySingleForm input[list="month"]{
+    max-width: 150px;
 }
 .bodySingleForm input[type="submit"]{
     font-size: 1rem;
@@ -436,7 +444,11 @@ body.bodySingleForm{
     outline: none;
 }
 .smallForm{
-    max-width: 440px;
+    max-width: 540px;
+}
+.fieldDate .d-flex{
+    display: block;
+    width: 100%;
 }
 
 /****************************************************************/
