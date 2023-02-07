@@ -48,6 +48,10 @@ a:hover{
 i{
     margin-right: 10px;
 }
+.fullscreen{
+    width: 100%;
+    height: 100%;
+}
 
 /* Flexbox */
 .d-flex{
@@ -67,6 +71,10 @@ i{
 }
 .justify-around{
     justify-content: space-around;
+}
+.d-flex-center-hor-vert{
+    align-content: center;
+    justify-content: center;
 }
 
 /* General list */
@@ -100,7 +108,7 @@ i{
     background-color: var(--bg-btn-dark);
     color: var(--txt-header-footer);
 }
-.dark:hover{
+.btn .dark:hover{
     color: var(--txt-header-footer);
     background-color: var(--bg-btn-dark-hover);
 }
@@ -108,7 +116,7 @@ i{
     background-color: var(--bg-btn-colored);
     color: var(--txt-header-footer);
 }
-.colored:hover{
+.btn .colored:hover{
     color: var(--txt-header-footer);
     background-color: var(--bg-btn-colored-hover);
 }
@@ -283,7 +291,22 @@ footer>div>div{
     padding-top: 2rem;
 }
 
-#bodyLogin{
+
+/* Login page */
+
+body#bodyLogin{
     background-image: url("../img/bgLogin.jpg");
     background-size: cover;
+    height: 100vh;
+}
+#bodyLogin .mainContent{
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+#bodyLogin .inputData{
+    max-width: 400px;
+}
+#bodyLogin .qrCode{
+    max-width: 300px;
 }
