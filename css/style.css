@@ -345,6 +345,9 @@ body#bodyLogin{
     caret-color: auto;
     color: var(--txt-header-footer);
 }
+#bodyLogin input[type="submit"]{
+    font-size: 1rem;
+}
 input:focus{
     outline: none;
 }
