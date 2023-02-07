@@ -308,15 +308,21 @@ body#bodyLogin{
     font-size: 0.9rem;
 }
 #bodyLogin .mainContent{
-    width: 50%;
+    width: 70%;
+    max-width: 890px;
     margin: 0 auto;
     padding: 3rem;
 }
+#bodyLogin .mainContent>div{
+    width: 100%;
+}
 #bodyLogin .inputData{
-    max-width: 400px;
+    width: 60%;
+    max-width: 420px;
 }
 #bodyLogin .qrCode{
-    max-width: 300px;
+    width: 40%;
+    max-width: 250px;
 }
 #bodyLogin h2{
     margin-bottom: 0.6rem;
