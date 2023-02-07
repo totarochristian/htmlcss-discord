@@ -1,0 +1,246 @@
+/* Variables definition */
+:root{
+    --bg-header: #255EE9;
+    --bg-body-general: #FFFFFF;
+    --bg-body-alternative: #F6F6F6;
+    --bg-footer: #23272A;
+    --txt-header-footer: #FFFFFF;
+    --txt-body: #0E0E0E;
+    --bg-btn-light: #FFFFFF;
+    --bg-btn-dark: #23272A;
+    --bg-btn-dark-hover: #39393F;
+    --bg-btn-colored: #7289DA;
+    --bg-btn-colored-hover: #7983f5;
+    --txt-footer-titles: #7287D5;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3rem;
+}
+.mainContent{
+    max-width: 1650px;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+.debug{
+    border: 2px solid yellow;
+}
+a{
+    text-decoration: none;
+    color: var(--txt-header-footer);
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.text-centered{
+    text-align: center;
+}
+i{
+    margin-right: 10px;
+}
+
+/* Flexbox */
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.reverse-rows{
+    flex-flow: row-reverse wrap;
+}
+.row-align-center{
+    align-items: center;
+}
+.row-content-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+
+/* General list */
+.list ul{
+    list-style: none;
+}
+
+/* Logo */
+.logo{
+    min-width: 124px;
+}
+
+/* Buttons */
+.btn{
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+.btn:hover{
+    text-decoration: none;
+    color: var(--bg-header);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.15);
+}
+.light{
+    background-color: var(--bg-btn-light);
+    color: var(--txt-body);
+}
+.dark{
+    background-color: var(--bg-btn-dark);
+    color: var(--txt-header-footer);
+}
+.dark:hover{
+    color: var(--txt-header-footer);
+    background-color: var(--bg-btn-dark-hover);
+}
+.colored{
+    background-color: var(--bg-btn-colored);
+    color: var(--txt-header-footer);
+}
+.colored:hover{
+    color: var(--txt-header-footer);
+    background-color: var(--bg-btn-colored-hover);
+}
+
+/* Header */
+header{
+    background-color: var(--bg-header);
+    color: var(--txt-header-footer);
+    padding-top: 2rem;
+}
+.logo, .login{
+    width: 25%;
+}
+.login{
+    text-align: right;
+}
+header .list{
+    width: 50%;
+}
+header section{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: 50% 75%;
+}
+header section .textContainer{
+    width: 40%;
+    padding: 17rem 0 11rem 0;
+}
+header section div h1{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+header section div p{
+    line-height: 2rem;
+}
+.buttons{
+    padding: 1rem 0;
+    gap: 1.5rem;
+}
+
+/* Main content */
+main{
+    background-color: var(--bg-body-general);
+    color: var(--txt-body);
+}
+main .bgAlternative{
+    background-color: var(--bg-body-alternative);
+}
+/* Articles */
+.leftContent{
+    width: 55%;
+}
+.rightContent{
+    width: 45%;
+}
+.text h2, .description h2{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+.text{
+    max-width: 500px;
+    margin-left: 3rem;
+}
+.text p, .description p{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+article{
+    padding: 8rem 1rem 11rem 1rem;
+}
+article img{
+    float: right;
+    width: 50rem;
+}
+article .reverse-rows img{
+    float: left;
+}
+/* Technology section */
+.description{
+    padding: 8rem 0 2rem 0;
+}
+.description h1, .description p{
+    max-width: 1350px;
+    margin: 2rem auto;
+}
+.description img{
+    width: 100rem;
+}
+/* Download */
+.download .stars{
+    max-width: 500px;
+    height: 3rem;
+    margin: 0 auto;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    margin-bottom: -1rem;
+}
+.download h3{
+    font-size: 1.45rem;
+}
+.download .btn{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+.download{
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+/* Footer */
+footer{
+    background-color: var(--bg-footer);
+    color: var(--txt-header-footer);
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+footer .btn{
+    padding: 7px 14px;
+}
+footer h3, footer h2{
+    color: var(--txt-footer-titles);
+    padding-top: 1rem;
+}
+footer li{
+    padding: 1rem 0;
+}
+footer .list, footer .contacts{
+    width: 15%;
+}
+footer select{
+    margin: 1rem 0 0.7rem 0;
+}
+footer .contacts .d-flex{
+    max-width: 200px;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
