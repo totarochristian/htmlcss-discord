@@ -186,6 +186,9 @@ header{
     color: var(--txt-header-footer);
     padding-top: 2rem;
 }
+header nav{
+    background-color: var(--bg-header);
+}
 .logo, .login{
     width: 25%;
 }
